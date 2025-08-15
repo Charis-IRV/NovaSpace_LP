@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>NovaSpace - Portails clients premium pour agences créatives</title>
+  <meta name="description" content="NovaSpace aide les agences créatives à offrir une expérience client premium avec un portail clé-en-main. Centralisez vos projets, fichiers et échanges dans un espace visuel, stylé et efficace.">
+  <meta name="keywords" content="portail client agence créative, dashboard client personnalisé, expérience client freelance, outil gestion client créatif, espace client Webflow, portail Notion pour client, portail projet freelance, outil premium pour agence design">
+  <meta name="author" content="NovaSpace" />
+
+  <!-- Favicons -->
+  <link href="assets/Logo/" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="Styles.css">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Instant
+  * Template URL: https://bootstrapmade.com/newtemplate-bootstrap-website-template/
+  * Updated: Jun 11 2025 with Bootstrap v5.3.6
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+             <img src="assets/Logo/Mini-black.png" alt="NovaSpace">
+        <!-- <h1 class="sitename">NovaSpace</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Accueil</a></li>
+          <li><a href="#Why_ous">Pourquoi Nous</a></li>
+          <!-- <li><a href="#services">Services</a></li> -->
+          <li><a href="#features">Processus</a></li>
+          <li><a href="#pricing">Tarifs</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <!-- Début de widget de lien Calendly -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a class="btn-getstarted" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/irumvacharis/call-avec-des-clients'});return false;">Prendre UN RDV</a>
+<!-- Fin de widget de lien Calendly -->
+
+    </div>
+  </header>
+
+  <main class="main">
+    
+    <!-- Starter Section Section -->
+    <section id="starter-section" class="starter-section section">
+
+      <!-- Section Title -->
+      <style>
+      :root {
+        --bg: #0b0f1a;
+        /* fond sombre chic */
+        --card: #11182a;
+        /* carte */
+        --muted: #98a2b3;
+        /* texte secondaire */
+        --text: #eef2ff;
+        /* texte principal */
+        --brand: #e59d029a;
+        /* accent */
+        --stroke: #e59d0267;
+        /* bordures */
+        --success: #22c55e;
+      }
+
+      * {
+        box-sizing: border-box
+      }
+
+      body {
+        padding-left: 100;
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial;
+        background: linear-gradient(180deg, #000000 0%, #000000 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .wrap {
+        max-width: 900px;
+        margin: 48px auto;
+        padding: 0 20px
+      }
+
+      .header {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+      }
+
+      .title {
+        font-size: clamp(26px, 4vw, 36px);
+        line-height: 1.2;
+        margin: 0
+      }
+
+      .subtitle {
+        color: var(--muted);
+        margin-top: 6px;
+        max-width: 60ch
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #e59d0267;
+        color: #ffff;
+        border: 1px solid #e59d0267;
+        padding: 6px 10px;
+        border-radius: 14px;
+        font-size: 13px;
+        white-space: nowrap;
+        height: 30px;
+      }
+
+      .card {
+        background: rgba(255, 174, 0, 0);
+        border: 1px solid var(--stroke);
+        border-radius: 16px;
+        padding: 20px;
+        margin-bottom: 14px;
+        box-shadow: 0 10px 30px rgba(252, 173, 54, 0.15);
+      }
+
+      .card h3 {
+        margin: 0 0 6px 0;
+        font-size: 18px
+      }
+
+      .card p {
+        margin: 0;
+        color: var(--muted)
+      }
+
+      .accordion {
+        border-radius: 16px;
+        overflow: hidden
+      }
+
+      .item {
+        border-top: 1px solid var(--stroke);
+        background: rgba(255, 174, 0, 0)
+      }
+
+      .item:first-child {
+        border-top: none
+      }
+
+      .trigger {
+        width: 100%;
+        text-align: left;
+        padding: 18px 54px 18px 18px;
+        background: transparent;
+        border: 0;
+        color: var(--text);
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        cursor: pointer;
+        position: relative;
+      }
+
+      .chev {
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        translate: 0 -50%;
+        width: 18px;
+        height: 18px;
+        transition: transform .25s ease;
+      }
+
+      .content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .28s ease;
+        padding: 0 18px;
+      }
+
+      .content-inner {
+        padding: 0 0 18px 0;
+        color: var(--muted)
+      }
+
+      .open .content {
+        max-height: 420px
+      }
+
+      /* si du texte plus long, augmente cette valeur */
+      .open .chev {
+        transform: rotate(180deg)
+      }
+
+      .kpis {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 12px;
+        margin: 20px 0 8px
+      }
+
+      .kpi {
+        background:  rgba(255, 174, 0, 0);
+        border: 1px solid #e59d0267;
+        border-radius: 12px;
+        padding: 12px
+      }
+
+      .kpi strong {
+        display: block;
+        color: var(--text)
+      }
+
+      .btns {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 10px
+      }
+
+      .btn {
+        background: var(--brand);
+        color: white;
+        border: 0;
+        padding: 10px 14px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        box-shadow: 0 4px 16px rgba(207, 128, 9, 0.3);
+      }
+
+      .btn.outline {
+        background: transparent;
+        color: var(--text);
+        border: 1px solid var(--stroke);
+      }
+
+      .footer-note {
+        color: var(--muted);
+        font-size: 13px;
+        margin-top: 18px
+      }
+
+      @media (max-width:640px) {
+        .kpis {
+          grid-template-columns: 1fr
+        }
+      }
+    </style>
+    </head>
+
+    <body>
+      <main class="wrap" role="main">
+        <header class="header">
+          <div>
+            <h1 class="title">Conditions générales de vente des services vendus sur NovaSpace</h1> <br>
+            <div class="badge" id="lastUpdated">Dernière mise à jour : —</div> 
+          </div>
+          
+          <div class="btns">
+            <button class="btn" onclick="scrollToAccordion()">Voir les détails</button>
+          </div>
+        </header>
+
+        <!-- Résumé à valeur rapide -->
+        <section class="kpis" aria-label="Résumé de nos engagements">
+          <div class="kpi"><strong>0 revente</strong><span>Données jamais vendues ni louées</span></div>
+          <div class="kpi"><strong>Usage minimal</strong><span>Collecte limitée au service</span></div>
+          <div class="kpi"><strong>Vos contenus = à vous</strong><span>Propriété 100 % client</span></div>
+        </section>
+
+        <!-- Paragraphes clés -->
+        <section class="card">
+          <h3>Bienvenue sur la page des Conditions d’utilisation de NovaSpace.</h3>
+          <p>
+              Ici, nous expliquons en toute transparence comment fonctionne notre service, quels sont vos droits et vos responsabilités, 
+              et comment nous protégeons à la fois votre travail et le nôtre.
+              Notre objectif est simple : vous offrir un portail client performant, sécurisé et sur-mesure,
+               tout en établissant un cadre clair qui garantit la confiance et la sérénité dans chaque collaboration.
+          </p>
+        </section>
+
+        <!-- Accordéon détaillé -->
+        <section class="accordion card" id="policyAccordion" aria-label="Détails de la politique">
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              1) Objet
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                Les présentes conditions régissent les ventes par NovaSpace 
+                et proposant des services de création des portail clients.
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              2) PRIX
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                Les prix de nos services sont indiqués en euros toutes taxes comprises (TVA et autres taxes applicables au jour de la commande), sauf indication contraire et hors frais de traitement. 
+                Toutes les réservations quelle que soit leur origine sont payables en euros.  
+                NovaSpace se réserve le droit de modifier ses prix à tout moment, mais le produit sera facturé sur la base du tarif en vigueur au moment de la validation de la commande et sous réserve de disponibilité.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              3) Accès et droits d’utilisation
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                L’accès au portail est réservé aux utilisateurs disposant d’un identifiant unique fourni par NovaSpace. <br>
+                •	L’utilisation est strictement limitée aux besoins internes du client. <br>
+                •	Toute revente, duplication ou mise à disposition à des tiers non autorisés est interdite.
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              4) Propriété intellectuelle
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                Le code source, le design, les fonctionnalités et la structure du portail restent la propriété exclusive de NovaSpace. <br>
+                •  Aucun droit de propriété n’est transféré, sauf mention écrite contraire. <br>
+                •  Le client dispose d’un droit d’usage non exclusif, non transférable et limité à la durée prévue au contrat.
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              5) PAIEMENT
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                Le fait de valider votre réservation implique pour vous l'obligation de payer le prix indiqué.
+                Le règlement de vos achats s'effectue par carte bancaire grâce à nos systèmes de paiement sécurisés.
+                Le débit de la carte n'est effectué qu'au moment de l'expédition de la commande. En cas de livraisons fractionnées, seuls les produits expédiés sont débités.
+                Nous proposons les systèmes de paiement suivants : PayPal, Virement, Stripe
+
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              6) ANNULATION/REMBOURSEMENT
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                Si vous commandez un portail client et que le production du portail commence vous n'avez pas le droit
+                d'annuler le paiement <br>
+                Et si vous n'etes pas satisfait du portail nous continuons à le modifier jusqu’à ce que vous soyez satisfait 
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              7) DISPONIBILITE
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                Nos services sont proposés tant qu'ils sont visibles sur le site.	
+                En cas d'indisponibilité d'un service après passation de votre réservation pour quelque raison que ce soit, nous vous en informerons par mail. Votre réservation sera automatiquement annulée et nous vous proposerons une autre date ou un remboursement.
+
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              8) REALISATION DU SERVICE
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                Les services sont fournis à l'adresse indiquée au cours du processus de commande, à la date ou aux dates indiquées sur la page de validation de la réservation. 
+                NovaSpace ne peut être tenue pour responsable d'impossibilité totale ou partielle de réaliser le service demandé lorsque la faute en incombe au client s'il ne se présente pas
+                ou s’il a un retard important au [rendez-vous et/ou cours].
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              9) PROPRIETE INTELLECTUELLE
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                Tous les éléments du site de NovaSpace sont et restent la propriété intellectuelle et exclusive de NovaSpace. 
+                Nul n'est autorisé à reproduire, exploiter, rediffuser, ou utiliser à quelque titre que ce soit, même partiellement, des éléments du site qu'ils soient logiciels, visuels ou sonores.
+                Tout lien simple ou par hypertexte est strictement interdit sans un accord écrit exprès de NovaSpace.
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              10) DONNEES PERSONNELLES
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                NovaSpace se réserve le droit de collecter les informations nominatives et les données personnelles vous concernant. 
+                Elles sont nécessaires à la gestion de votre réservation, ainsi qu'à l'amélioration des services et des informations que nous vous adressons.
+                Elles peuvent aussi être transmises aux sociétés qui contribuent à ces relations, telles que celles chargées de l'exécution des services et commandes pour leur gestion, exécution, traitement et paiement.
+                Ces informations et données sont également conservées à des fins de sécurité, afin de respecter les obligations légales et réglementaires.
+                Pour plus d'information à ce sujet, nous vous invitons à lire notre <a href="">Politique de confidentialité.</a> 
+
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              11) DROIT APPLICABLE EN CAS DE LITIGE
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                La langue du présent contrat est la langue française. 
+                Les présentes conditions de vente sont soumises à la loi française.
+                En cas de litige, les tribunaux français seront les seuls compétents.
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button class="trigger" aria-expanded="false">
+              12) Acceptation
+              <svg class="chev" viewBox="0 0 24 24" fill="none">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <div class="content" aria-hidden="true">
+              <div class="content-inner">
+                En utilisant le portail, le client reconnaît avoir lu, compris et accepté ces Conditions d’utilisation.
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <p class="footer-note">
+          Rappel : NovaSpace ne revend <em>jamais</em> vos données. Vous contrôlez vos contenus, à tout moment.
+        </p>
+      </main>
+
+      <script>
+        // --- Date "Dernière mise à jour" ---
+        (function () {
+          const el = document.getElementById('lastUpdated');
+          // Remplace cette date si tu veux une valeur fixe
+          const d = new Date();
+          const fmt = new Intl.DateTimeFormat('fr-FR', { day: '2-digit', month: 'long', year: 'numeric' }).format(d);
+          el.textContent = 'Dernière mise à jour : ' + fmt;
+        })();
+
+        // --- Accordéon accessible ---
+        const items = document.querySelectorAll('#policyAccordion .item');
+        items.forEach((item) => {
+          const btn = item.querySelector('.trigger');
+          const content = item.querySelector('.content');
+
+          btn.addEventListener('click', () => {
+            const isOpen = item.classList.contains('open');
+            // Fermer tous les autres
+            items.forEach(i => {
+              i.classList.remove('open');
+              const b = i.querySelector('.trigger');
+              const c = i.querySelector('.content');
+              b.setAttribute('aria-expanded', 'false');
+              c.setAttribute('aria-hidden', 'true');
+            });
+            // Ouvrir celui-ci si ce n'était pas déjà ouvert
+            if (!isOpen) {
+              item.classList.add('open');
+              btn.setAttribute('aria-expanded', 'true');
+              content.setAttribute('aria-hidden', 'false');
+            }
+          });
+        });
+
+        // --- Scroll vers les détails ---
+        function scrollToAccordion() {
+          document.getElementById('policyAccordion').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        window.scrollToAccordion = scrollToAccordion;
+      </script>
+    </body>
+
+</html><!-- /Starter Section Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            <a href="condition.html">Condition d'Utilisation</a>
+          </div>
+          <div class="credits">
+           <a href="politique.html">Politique de confidentialité</a>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>NovaSpace</span></strong>. Tout droit réservez
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href="https://www.linkedin.com/in/charis-irv-64369b359/"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://www.linkedin.com/in/charis-irv-64369b359/"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/charis-irv-64369b359/"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/charis-irv-64369b359/"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
